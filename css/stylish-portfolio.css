@@ -12,11 +12,12 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+a:hover { 
+    text-decoration: none;
+    color:grey;
 }
-
-
 
 /* text vartical */
 
@@ -24,7 +25,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-
+   
 }
 
 .text-vertical-center h1 {
@@ -32,9 +33,11 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+  
 }
 .text-vertical-center h2 { 
-    margin:1em 8em;
+    margin:1em 5em;
+    background-color: rgba(0,22,173,0.2);
 
 }
 
@@ -73,93 +76,32 @@ body {
 hr.small {
     max-width: 100px;
 }
+/* Navigation */
+.navbar { 
+    background-color: white;
 
-/* Side Menu */
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-    color: white;
-    background-color: rgba(255,255,255,0.8);
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+}
+.nav {
+   text-align: right;
+   display:inline-block;
+   float:right;
+   color:blue;
 }
 
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+#title { 
+    display: inline-block;
+    position: relative;
+    margin: 0.25em;
 }
 
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
 
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-   background: rgba(255,255,255,0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
+#title a { 
     text-decoration: none;
 }
 
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
+.navbar-inverse {
+    border-color:lightgrey;
 }
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-#menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.toggle {
-    margin: 5px 5px 0 0;
-}
-
 /* Header */
 
 .header {
@@ -207,20 +149,13 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
-    padding: 50px 0;
-}
+.modal-dialog {}
+.thumbnail {margin-bottom:6px;}
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
 }
 
 /* Call to Action */
@@ -252,12 +187,38 @@ footer {
 }
 
 /** Colors and fonts */
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+
+body {
+    font-family: "Russo One","sans-serif",Helvetica,Arial,sans-serif;
+}
+#title {
+     text-shadow: 3px 3px #DDDDDD;
+}
+#title  a {
+    color:blue;
+
+}
 
 .header h1, .header h2 { 
     color:white;
   
 }
 
-.sidebar-nav li a {
-     color:black;
+.navbar-inverse .navbar-nav>li>a {
+    color:blue;
+    text-shadow: 3px 3px #DDDDDD;
+}
+
+#navColor>li>a:hover {
+    color: purple;
+}
+
+h5 { 
+    color:lightblue;
+}
+
+h2 { 
+    text-align: center;
+    margin:2em;
 }
