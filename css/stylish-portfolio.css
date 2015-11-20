@@ -4,23 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
 /* Global Styles */
 
 html,
 body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
 }
 
-a:hover {
+
+
+a:hover { 
     text-decoration: none;
-    color: grey;
+    color:grey;
 }
-
 
 /* text vartical */
 
@@ -28,6 +25,7 @@ a:hover {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+   
 }
 
 .text-vertical-center h1 {
@@ -35,84 +33,75 @@ a:hover {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+  
 }
+.text-vertical-center h2 { 
+    margin:1em 5em;
+    background-color: rgba(0,22,173,0.2);
 
-.text-vertical-center h2 {
-    margin: 1em 5em;
-    background-color: rgba(0, 22, 173, 0.2);
 }
-
 
 /* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0, 22, 173, 0.4);
+    background-color: rgba(0,22,173,0.4);
     font-size: 3em;
-    font-weight: bolder;
+    font-weight:bolder;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255,255,255);
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
     color: #333;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255,255,255,0.8);
 }
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: blue;
-}
-
 
 /* Custom Horizontal Rule */
 
 hr.small {
     max-width: 100px;
 }
-
-
 /* Navigation */
-
-.navbar {
+.navbar { 
     background-color: white;
-}
 
+}
 .nav {
-    text-align: right;
-    display: inline-block;
-    float: right;
-    color: blue;
+   text-align: right;
+   display:inline-block;
+   float:right;
+   color:blue;
 }
 
-#title {
+#title { 
     display: inline-block;
     position: relative;
     margin: 0.25em;
 }
 
-#title a {
+
+#title a { 
     text-decoration: none;
 }
 
 .navbar-inverse {
-    border-color: lightgrey;
+    border-color:lightgrey;
 }
-
-
 /* Header */
 
 .header {
@@ -125,21 +114,14 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover  {
-    background-color: #ededed;
 
 }
-
-
 
 /* About */
 
 .about {
     padding: 50px 0;
 }
-
 
 /* Services */
 
@@ -150,7 +132,6 @@ hr.small {
 .service-item {
     margin-bottom: 30px;
 }
-
 
 /* Callout */
 
@@ -166,22 +147,16 @@ hr.small {
     -o-background-size: cover;
 }
 
-
 /* Portfolio */
 
 .modal-dialog {}
+.thumbnail {margin-bottom:6px;}
 
-.thumbnail {
-    margin-bottom: 6px;
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
 }
-
-.carousel-control.left,
-.carousel-control.right {
-    background-image: none;
-    margin-top: 10%;
-    width: 5%;
-}
-
 
 /* Call to Action */
 
@@ -193,7 +168,6 @@ hr.small {
     margin: 10px;
 }
 
-
 /* Map */
 
 .map {
@@ -204,20 +178,7 @@ hr.small {
     .map {
         height: 75%;
     }
-    .btn-dark {
-        border-radius: 0;
-        color: #fff;
-        background-color: rgba(0, 22, 173, 0.4);
-        font-size: 1em;
-        font-weight: bolder;
-    }
-    .header h1,
-    .header h2 {
-        color: white;
-        font-size: 1.3em;
-    }
 }
-
 
 /* Footer */
 
@@ -225,28 +186,27 @@ footer {
     padding: 100px 0;
 }
 
-
-/** fonts & colors */
-
+/** Colors and fonts */
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
+
 body {
-    font-family: "Russo One", "sans-serif", Helvetica, Arial, sans-serif;
+    font-family: "Russo One","sans-serif",Helvetica,Arial,sans-serif;
 }
-
 #title {
-    text-shadow: 3px 3px #DDDDDD;
+     text-shadow: 3px 3px #DDDDDD;
 }
+#title  a {
+    color:blue;
 
-#title a {
-    color: blue;
 }
 
 .header h1, .header h2 { 
-    color: white;
+    color:white;
+  
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: blue;
+    color:blue;
     text-shadow: 3px 3px #DDDDDD;
 }
 
@@ -254,11 +214,11 @@ body {
     color: purple;
 }
 
-h5 {
-    color: lightblue;
+h5 { 
+    color:lightblue;
 }
 
-h2 {
+h2 { 
     text-align: center;
-    margin: 2em;
+    margin:2em;
 }
