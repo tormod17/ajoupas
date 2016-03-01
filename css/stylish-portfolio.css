@@ -105,10 +105,11 @@ hr.small {
 /* Header */
 
 .header {
-    display: table;
+    display: block;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 70%;
+    padding-top: 20px;
     background: url(../img/pro.swimming.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -116,6 +117,12 @@ hr.small {
     -o-background-size: cover;
 
 }
+
+#intro h2, #intro h3 { 
+    color:white;
+  
+}
+
 
 /* About */
 
@@ -169,16 +176,16 @@ hr.small {
 }
 
 /* Map */
+#map > iframe { 
+    height : 80%;
+    width :80%;
+    margin : 5em;
+    text-align: center;
+        
+ }
 
-.map {
-    height: 500px;
-}
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
+
 
 /* Footer */
 
@@ -200,9 +207,9 @@ body {
 
 }
 
-.header h1, .header h2 { 
-    color:white;
-  
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -221,4 +228,28 @@ h5 {
 h2 { 
     text-align: center;
     margin:2em;
+}
+
+@media(max-width:768px) {
+   
+    #ratesCalendar, #ratesCalendar h1 {
+    display: none;
+    }
+    #portfolio{
+
+
+    }
+    #intro h2, #intro h3 { 
+    color:white;
+    font-size: 1em;
+    }
+    
+    .btn-dark {
+        border-radius: 0;
+        color: #fff;
+        background-color: rgba(0,22,173,0.4);
+        font-size: 1em;
+        font-weight:bolder;
+        margin:1em;
+    }
 }
