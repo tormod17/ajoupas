@@ -49,6 +49,7 @@ a:hover {
     background-color: rgba(0,22,173,0.4);
     font-size: 3em;
     font-weight:bolder;
+    margin:3em;
 }
 
 .btn-dark:hover,
@@ -176,9 +177,9 @@ hr.small {
 }
 
 /* Map */
-#map > iframe { 
-    height : 80%;
-    width :80%;
+#map iframe { 
+    height : 30em;
+    width :40em;
     margin : 5em;
     text-align: center;
         
@@ -230,7 +231,18 @@ h2 {
     margin:2em;
 }
 
-@media(max-width:768px) {
+@media(max-width: 750px) {
+
+        #map iframe { 
+            height : 10em;
+            width :20em;
+            margin : 5em;
+            text-align: center;
+                
+         }
+}
+
+@media(max-width:480px) {
    
     #ratesCalendar, #ratesCalendar h1 {
     display: none;
@@ -239,7 +251,7 @@ h2 {
 
 
     }
-    #intro h2, #intro h3 { 
+    #intro h3 { 
     color:white;
     font-size: 1em;
     }
@@ -250,6 +262,16 @@ h2 {
         background-color: rgba(0,22,173,0.4);
         font-size: 1em;
         font-weight:bolder;
-        margin:1em;
+        margin:3em;
     }
+
+      #map iframe { 
+            height : 10em;
+            width :20em;
+            margin : 1em;
+            text-align: center;
+                
+         }
+
+
 }
