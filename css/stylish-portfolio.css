@@ -121,7 +121,7 @@ hr.small {
 
 #intro h2, #intro h3 { 
     color:white;
-  
+    text-shadow: 3px 3px #000000;  
 }
 
 
@@ -200,12 +200,10 @@ footer {
 body {
     font-family: "Russo One","sans-serif",Helvetica,Arial,sans-serif;
 }
-#title {
-     text-shadow: 3px 3px #DDDDDD;
-}
+
 #title  a {
     color:blue;
-
+    font-size: 1.5em;
 }
 
 
@@ -215,7 +213,7 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
     color:blue;
-    text-shadow: 3px 3px #DDDDDD;
+    font-size: 1.5em;
 }
 
 #navColor>li>a:hover {
