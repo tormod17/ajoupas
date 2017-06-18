@@ -187,8 +187,17 @@ hr.small {
 #map {
     text-align: center;
 }
-
-
+/* Links */
+.come2Stay {
+    background: blue;
+    color: white;
+    border: blue;
+    padding: 10px;
+    border-radius: 25px;
+}
+.list-inline {
+    vertical-align: top;
+}
 
 
 /* Footer */
