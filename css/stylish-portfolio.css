@@ -190,7 +190,7 @@ hr.small {
 
 /* Links */
 .come2stay {
-    vertical-align: none;
+    vertical-align: bottom;
     padding: 5px 1px 5px 25px;
     background: rgb(57, 90, 165);
     border-radius: 25px;
