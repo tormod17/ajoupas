@@ -184,10 +184,9 @@ hr.small {
 }
 
 /* Map */
-#map iframe {
+#map {
     text-align: center;
-
- }
+}
 
 
 
