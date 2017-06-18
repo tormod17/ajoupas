@@ -185,9 +185,6 @@ hr.small {
 
 /* Map */
 #map iframe {
-    height : 30em;
-    width :40em;
-    margin : 5em;
     text-align: center;
 
  }
