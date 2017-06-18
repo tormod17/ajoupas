@@ -13,10 +13,10 @@ body {
     height: 100%;
 }
 *{
-    font-family:'IM Fell French Canon', serif;    
+    font-family:'IM Fell French Canon', serif;
 }
 
-a:hover { 
+a:hover {
     text-decoration: none;
     color:grey;
 }
@@ -27,7 +27,7 @@ a:hover {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-   
+
 }
 
 .text-vertical-center h1 {
@@ -35,9 +35,9 @@ a:hover {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
-  
+
 }
-.text-vertical-center h2 { 
+.text-vertical-center h2 {
     margin:1em 5em;
     background-color: rgba(0,22,173,0.2);
 
@@ -80,7 +80,7 @@ hr.small {
     max-width: 100px;
 }
 /* Navigation */
-.navbar { 
+.navbar {
     background-color: white;
 
 }
@@ -91,14 +91,14 @@ hr.small {
    color:blue;
 }
 
-#title { 
+#title {
     display: inline-block;
     position: relative;
     margin: 0.25em;
 }
 
 
-#title a { 
+#title a {
     text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ hr.small {
 
 }
 
-#intro { 
+#intro {
     color:white;
     background: rgba(0, 0, 0, 0.4);
 }
@@ -184,12 +184,12 @@ hr.small {
 }
 
 /* Map */
-#map iframe { 
+#map iframe {
     height : 30em;
     width :40em;
     margin : 5em;
     text-align: center;
-        
+
  }
 
 
@@ -227,17 +227,19 @@ body {
     color: purple;
 }
 
-h5 { 
+h5 {
     color:lightblue;
 }
 
-h2 { 
+h2 {
     text-align: center;
     margin:2em;
 }
 
+.
+
 @media(max-width: 800px){
-    #ratesCalendar, 
+    #ratesCalendar,
     #ratesCalendar h1,
     #navColor li:nth-child(3) {
        display: none;
@@ -246,7 +248,7 @@ h2 {
 
 @media(max-width: 750px) {
 
-        #map iframe { 
+        #map iframe {
             height : 10em;
             width :20em;
             margin : 5em;
@@ -255,15 +257,15 @@ h2 {
 }
 
 @media(max-width:480px) {
-   
+
     #ratesCalendar, #ratesCalendar h1 {
     display: none;
     }
-    #intro h3 { 
+    #intro h3 {
     color:white;
     font-size: 1em;
     }
-    
+
     .btn-dark {
         border-radius: 0;
         color: #fff;
@@ -273,7 +275,7 @@ h2 {
         margin:3em;
     }
 
-    #map iframe { 
+    #map iframe {
             height : 10em;
             width :20em;
             margin : 1em;
