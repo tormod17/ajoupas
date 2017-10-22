@@ -55,7 +55,7 @@
   		target.appendChild(docFrag);
   	}
 	}
-	imgGallery.INIT()
+	//imgGallery.INIT()
 
 	var carouselModal ={
 		INIT : function(){
