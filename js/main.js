@@ -21,39 +21,39 @@
     		this.appendImages(target, images)
 
 		},
-    	createImages: function(images){
-    		var self = this;
-    		var imgArray = images.map(function(image){
-    		var img = document.createElement('img')
-	    	    self.setAttributes(img, {
-	    				src: image,
-	    				height:"350",
-	    				width:"600",
-	    				class:"thumbnail img-responsive"
-	    		})
-	    		container = self.createImgContainer(img)
-	    		return container
-    		});
-    		return imgArray ;	
-    	},
-		setAttributes: function(el, attr){
-    		for(var key in attr){
-    			el.setAttribute(key, attr[key])
-    		}
-    	},
-    	createImgContainer: function(img){
-    		var container = document.createElement('div')
-    		container.className += "col-lg-3 col-sm-3 col-xs-6"
-    		container.appendChild(img);
+    createImages: function(images){
+  		var self = this;
+  		var imgArray = images.map(function(image){
+  		var img = document.createElement('img')
+    	    self.setAttributes(img, {
+    				src: image,
+    				height:"350",
+    				width:"600",
+    				class:"thumbnail img-responsive"
+    		})
+    		container = self.createImgContainer(img)
     		return container
-    	},
-	    appendImages: function(target, array){
-    		var docFrag = document.createDocumentFragment();
-    			array.forEach(function(ele){
-    				docFrag.appendChild(ele)
-    		});
-    		target.appendChild(docFrag);
-    	}
+  		});
+  		return imgArray ;	
+  	},
+	  setAttributes: function(el, attr){
+  		for(var key in attr){
+  			el.setAttribute(key, attr[key])
+  		}
+  	},
+  	createImgContainer: function(img){
+  		var container = document.createElement('div')
+  		container.className += "col-lg-3 col-sm-3 col-xs-6"
+  		container.appendChild(img);
+  		return container
+  	},
+    appendImages: function(target, array){
+  		var docFrag = document.createDocumentFragment();
+  		array.forEach(function(ele){
+  				docFrag.appendChild(ele)
+  		});
+  		target.appendChild(docFrag);
+  	}
 	}
 	imgGallery.INIT()
 
