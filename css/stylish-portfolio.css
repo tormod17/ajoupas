@@ -241,6 +241,14 @@ h2 {
     margin:2em 0;
 }
 
+
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #333;
+    border: none;
+}
+
 @media(max-width: 800px){
     #ratesCalendar,
     #ratesCalendar h1,
