@@ -1,0 +1,338 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Global Styles */
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: 'IM Fell French Canon', serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+/* text vartical */
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.text-vertical-center h2 {
+  margin: 1em 5em;
+  background-color: rgba(0, 22, 173, 0.2);
+}
+
+/* Custom Button Styles */
+.btn-dark {
+  border-radius: 0;
+  color: #fff;
+  background-color: #86d0ef;
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 3em;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-light {
+  border-radius: 0;
+  color: #333;
+  background-color: white;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Custom Horizontal Rule */
+hr.small {
+  max-width: 100px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: white;
+}
+
+.nav {
+  text-align: right;
+  display: inline-block;
+  color: #86d0ef;
+}
+
+.navbar-collapse {
+  float: right;
+  border: none;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+#title {
+  display: inline-block;
+  position: relative;
+  margin: 0.25em;
+  color: #86d0ef;
+}
+
+#title a {
+  text-decoration: none;
+}
+
+.navbar-inverse {
+  border-color: lightgrey;
+}
+
+/* Header */
+.header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 70%;
+  padding-top: 20px;
+  background: url(../img/pro.swimming.jpg) no-repeat center center scroll;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#intro {
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* About */
+.about {
+  padding: 50px 0;
+}
+
+/* Services */
+.services {
+  padding: 50px 0;
+}
+
+.service-item {
+  margin-bottom: 30px;
+}
+
+/* Callout */
+.callout {
+  display: table;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  background: url(../img/callout.jpg) no-repeat center center scroll;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Portfolio */
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.thumbnail {
+  margin-bottom: 6px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  margin-top: 10%;
+  width: 5%;
+}
+
+/* Call to Action */
+.call-to-action {
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Calendar */
+#ratesCalendar h2 {
+  margin: 1em;
+}
+
+/* Map */
+#map {
+  text-align: center;
+}
+
+/* Links */
+.come2stay {
+  vertical-align: bottom;
+  padding: 5px 1px 5px 25px;
+  background: #395aa5;
+  border-radius: 25px;
+}
+
+.list-inline {
+  vertical-align: top;
+}
+
+/* Footer */
+footer {
+  padding: 100px 0;
+}
+
+footer .email p,
+footer .phone p {
+  display: inline-block;
+  height: 3em;
+  line-height: 2em;
+  font-size: 1.5em;
+  vertical-align: middle;
+  color: #86d0ef;
+}
+
+footer .email i,
+footer .phone i {
+  margin-right: 0.25em;
+  color: #86d0ef;
+}
+
+footer .social-media i {
+  color: #86d0ef;
+}
+
+/** Colors and fonts */
+body {
+  font-family: "Russo One","sans-serif",Helvetica,Arial,sans-serif;
+}
+
+#title a {
+  color: #86d0ef;
+  font-size: 1.5em;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #86d0ef;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #86d0ef;
+  font-size: 1.5em;
+}
+
+#navColor > li > a:hover {
+  color: purple;
+}
+
+h5 {
+  color: #86d0ef;
+}
+
+h2 {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: white;
+  border: none;
+}
+
+.rightAligned {
+  padding-left: 5%;
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.my-gallery figure {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.my-gallery figcaption {
+  display: none;
+}
+
+.portfolio--wrapper {
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  #ratesCalendar,
+  #ratesCalendar h1,
+  #navColor li:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  #map iframe {
+    height: 10em;
+    width: 20em;
+    margin: 5em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #ratesCalendar, #ratesCalendar h1 {
+    display: none;
+  }
+  #intro h3 {
+    color: white;
+    font-size: 1em;
+  }
+  #facebookBlog {
+    width: 300px;
+  }
+  .my-gallery figure {
+    width: 33%;
+  }
+  .btn-dark {
+    border-radius: 0;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 3em;
+  }
+  #map iframe {
+    height: 10em;
+    width: 20em;
+    margin: 1em;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
