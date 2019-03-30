@@ -23,6 +23,7 @@ a:hover {
 
 h2 {
     color:  $secondary;
+    border-bottom: 1px $secondary solid;
 }
 
 /* text vartical */
@@ -209,7 +210,52 @@ hr.small {
 
 /* Map */
 #map {
+  div {
+    div {
+      text-align: center;
+    }
+  }
+}
+
+/* Shop */
+.shop-slide-show {
+  width: 95%;
+  margin: auto;
+  .slick-slide {
+    border: solid 1px $secondary;
     text-align: center;
+    max-width:250px;
+    position: relative;
+    height: 150px;
+    padding: 10px;
+    .product {
+      > img {
+        margin: auto;
+        width: 30%;
+      }
+    }
+    .buy-button {
+      position: absolute;
+      bottom: 0;
+      background: white; 
+      padding: 10px;
+      img,
+      p {
+        display: inline-block;
+        margin: 5px;
+        font-weight: 800;
+      }
+      a {
+      background: white; 
+      }
+      p {
+        color: black;
+      }
+    }
+  }
+  .slick-next:before, .slick-prev:before {
+    color: $secondary;
+  }
 }
 
 /* Links */
@@ -277,11 +323,7 @@ body {
 }
 
 h5 {
-    color:$secondary;
-}
-
-h2 {
-    text-align: center;
+  color:$secondary;
 }
 
 
@@ -352,6 +394,7 @@ h2 {
  
     }
     .about {
+      text-align: center;
       padding: 0;
       h4 {
         display: none;
@@ -387,7 +430,7 @@ h2 {
 
     #map iframe {
             height : 10em;
-            width :20em;
+            width : 20em;
             margin : 1em;
             text-align: center;
     }

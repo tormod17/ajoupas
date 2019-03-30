@@ -22,6 +22,7 @@ a:hover {
 
 h2 {
   color: #86d0ef;
+  border-bottom: 1px #86d0ef solid;
 }
 
 /* text vartical */
@@ -200,8 +201,54 @@ hr.small {
 }
 
 /* Map */
-#map {
+#map div div {
   text-align: center;
+}
+
+/* Shop */
+.shop-slide-show {
+  width: 95%;
+  margin: auto;
+}
+
+.shop-slide-show .slick-slide {
+  border: solid 1px #86d0ef;
+  text-align: center;
+  max-width: 250px;
+  position: relative;
+  height: 150px;
+  padding: 10px;
+}
+
+.shop-slide-show .slick-slide .product > img {
+  margin: auto;
+  width: 30%;
+}
+
+.shop-slide-show .slick-slide .buy-button {
+  position: absolute;
+  bottom: 0;
+  background: white;
+  padding: 10px;
+}
+
+.shop-slide-show .slick-slide .buy-button img,
+.shop-slide-show .slick-slide .buy-button p {
+  display: inline-block;
+  margin: 5px;
+  font-weight: 800;
+}
+
+.shop-slide-show .slick-slide .buy-button a {
+  background: white;
+}
+
+.shop-slide-show .slick-slide .buy-button p {
+  color: black;
+}
+
+.shop-slide-show .slick-next:before, .shop-slide-show .slick-prev:before {
+  color: #86d0ef;
 }
 
 /* Links */
@@ -268,10 +315,6 @@ h5 {
   color: #86d0ef;
 }
 
-h2 {
-  text-align: center;
-}
-
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
   background-color: white;
@@ -336,6 +379,7 @@ h2 {
     font-size: 1em;
   }
   .about {
+    text-align: center;
     padding: 0;
   }
   .about h4 {
