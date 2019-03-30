@@ -6,6 +6,7 @@
 
 /* Global Styles */
 $secondary: #86d0ef;
+
 html,
 body {
     width: 100%;
@@ -18,6 +19,10 @@ body {
 a:hover {
     text-decoration: none;
     color:grey;
+}
+
+h2 {
+    color:  $secondary;
 }
 
 /* text vartical */
@@ -36,6 +41,7 @@ a:hover {
     font-weight: 700;
 
 }
+
 .text-vertical-center h2 {
     margin:1em 5em;
     background-color: rgba(0,22,173,0.2);
@@ -125,8 +131,15 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
+    > div {
+        height: 100%;
+        #intro {
+            margin-top: 3em;
+            padding: 2em;
+        }
+    }
 }
+
 
 #intro {
     color:white;
@@ -137,6 +150,10 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    ul {
+        font-size: 1.5em;
+        list-style: square;
+    }
 }
 
 /* Services */
@@ -265,7 +282,6 @@ h5 {
 
 h2 {
     text-align: center;
-    margin:2em 0;
 }
 
 
@@ -322,16 +338,40 @@ h2 {
 }
 
 @media(max-width:480px) {
+    .header {
+        height: auto;
+    }
     #ratesCalendar, #ratesCalendar h1 {
       display: none;
     }
-    #intro h3 {
-      color:white;
-      font-size: 1em;
+    #intro {
+      h3 {
+        color:white;
+        font-size: 1em;
+      }
+ 
+    }
+    .about {
+      padding: 0;
+      h4 {
+        display: none;
+      }
+      h4 + p {
+        display: none;
+      }
+      .row > div {
+        padding: 2em 0; 
+      }
     }
 
     #facebookBlog {
       width: 300px;
+    }
+
+    .portfolio {
+        h2 {
+            padding: 1em 0;
+        }
     }
 
     .my-gallery figure {

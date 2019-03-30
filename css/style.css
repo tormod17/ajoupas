@@ -20,6 +20,10 @@ a:hover {
   color: grey;
 }
 
+h2 {
+  color: #86d0ef;
+}
+
 /* text vartical */
 .text-vertical-center {
   display: table-cell;
@@ -121,6 +125,15 @@ hr.small {
   -o-background-size: cover;
 }
 
+.header > div {
+  height: 100%;
+}
+
+.header > div #intro {
+  margin-top: 3em;
+  padding: 2em;
+}
+
 #intro {
   color: white;
   background: rgba(0, 0, 0, 0.4);
@@ -129,6 +142,11 @@ hr.small {
 /* About */
 .about {
   padding: 50px 0;
+}
+
+.about ul {
+  font-size: 1.5em;
+  list-style: square;
 }
 
 /* Services */
@@ -252,7 +270,6 @@ h5 {
 
 h2 {
   text-align: center;
-  margin: 2em 0;
 }
 
 .navbar-inverse .navbar-toggle:focus,
@@ -308,6 +325,9 @@ h2 {
 }
 
 @media (max-width: 480px) {
+  .header {
+    height: auto;
+  }
   #ratesCalendar, #ratesCalendar h1 {
     display: none;
   }
@@ -315,8 +335,23 @@ h2 {
     color: white;
     font-size: 1em;
   }
+  .about {
+    padding: 0;
+  }
+  .about h4 {
+    display: none;
+  }
+  .about h4 + p {
+    display: none;
+  }
+  .about .row > div {
+    padding: 2em 0;
+  }
   #facebookBlog {
     width: 300px;
+  }
+  .portfolio h2 {
+    padding: 1em 0;
   }
   .my-gallery figure {
     width: 33%;
