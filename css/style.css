@@ -413,5 +413,11 @@ h5 {
     margin: 1em;
     text-align: center;
   }
+  .shop-slide-show .slick-slide {
+    height: 120px;
+  }
+  .shop-slide-show .slick-slide div.buy-button p {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

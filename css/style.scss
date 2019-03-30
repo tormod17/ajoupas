@@ -326,8 +326,6 @@ h5 {
   color:$secondary;
 }
 
-
-
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
     background-color: white;
@@ -434,4 +432,15 @@ h5 {
             margin : 1em;
             text-align: center;
     }
+    .shop-slide-show {
+      .slick-slide {
+        height: 120px;
+        div.buy-button {
+          p {
+            display: none !important;
+          }
+        }
+      }
+    }
+
 }
