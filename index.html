@@ -1,447 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-137847357-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+      gtag("config", "UA-137847357-2");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Ajoupas Barbados</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link href="css/style.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-        rel="stylesheet" type="text/css">
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
     "></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#top">
-                    <h2 id="title">Ajoupas</h2>
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" id="navColor">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Availability</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#top">
+            <h2 id="title">Ajoupas</h2>
+          </a>
         </div>
-        <!-- /.container -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav" id="navColor">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#portfolio">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Availability</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.container -->
     </nav>
     <!-- Header -->
     <section class="header">
-        <div class="container">
-            <div id="intro" class="text-center">
-                <!-- /.navbar-collapse -->
-                <h2>Ajoupas Barbados</h2>
-                <h3>Luxurious self-catering villas available for short-term holiday rental. Two bedroom, two storey
-                    villas, swimming pool, sea view & sun terrace, WIFI, internet, AC through out,near beach cable TV,
-                    self catering. </h3>
-            </div>
+      <div class="container">
+        <div id="intro" class="text-center">
+          <!-- /.navbar-collapse -->
+          <h2>Ajoupas Barbados</h2>
+          <h3>
+            Luxurious self-catering villas available for short-term holiday
+            rental. Two bedroom, two storey villas, swimming pool, sea view &
+            sun terrace, WIFI, internet, AC through out,near beach cable TV,
+            self catering.
+          </h3>
         </div>
+      </div>
     </section>
     <!-- About -->
     <section class="about">
-        <div id="about" class="container">
-            <div class="row">
-                <div class="col-lg-6 text-left">
-                    <h2 class="text-left"> About Us </h2>
-                    <p class="text-left">
-                        ​Ajoupa Villa Number 3 is a two bedroom townhouse located in a quiet cul-de-sac set amidst
-                        landscaped tropical gardens these attractively designed townhouses include a communal pool, a
-                        parking space and a sun terrace. </p>
-                    <ul>
-                        <li>Two Bedrooms</li>
-                        <li>Air Condtioned</li>
-                        <li>WIFI</li>
-                        <li>Swimming pool</li>
-                    </ul>
-                    <h4>Ajoupa Villas</h4>
-                    <p>
-                        ​Ajoupa Villa Number 3 is one of fourteen villas set within landscaped tropical gardens all
-                        with access to an outdoor pool.  The property site is well maintained and focused on providing a
-                        relaxing, friendly and enjoyable environment. 
-                        ​
-                        Each villa has two bedrooms upstairs and a bathrooms. Downstairs there is an open plan reception
-                        room kitchen with a WC and area for dinning.The villa is fully furnished with one double bedroom
-                        and one twin room. The Villa has  AC throughout, an oven with a four ring stove a washing
-                        machine dryer, cable TV, WIFI internet and a sun terrace with views of the Caribbean sea. The
-                        living room is furnished with a couch and a home entertainment system. Each villa has a parking
-                        space and hiring a car is highly recommended although Ajoupas can easily be accessed by public
-                        transport. 
-                        Once you have made your booking and sent us yo3r arrival details we'll make arrangements for
-                        Sooey to meet you at the property run through a quick inventory and hand over the keys.
-                    </p>
-                </div>
-                <div class="col-lg-6 rightAligned">
-                    <iframe id="facebookBlog"
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAjoupasBarbados%2F%3Fpnref%3Dlhc&tabs=timeline&width=600&height=700&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=163574497563148"
-                        width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowTransparency="true">
-                    </iframe>
-                </div>
-            </div>
-            <!-- /.row -->
+      <div id="about" class="container">
+        <div class="row">
+          <div class="col-lg-6 text-left">
+            <h2 class="text-left">About Us</h2>
+            <p class="text-left">
+              ​Ajoupa Villa Number 3 is a two bedroom townhouse located in a
+              quiet cul-de-sac set amidst landscaped tropical gardens these
+              attractively designed townhouses include a communal pool, a
+              parking space and a sun terrace.
+            </p>
+            <ul>
+              <li>Two Bedrooms</li>
+              <li>Air Condtioned</li>
+              <li>WIFI</li>
+              <li>Swimming pool</li>
+            </ul>
+            <h4>Ajoupa Villas</h4>
+            <p>
+              ​Ajoupa Villa Number 3 is one of fourteen villas set within
+              landscaped tropical gardens all with access to an outdoor pool.
+               The property site is well maintained and focused on providing a
+              relaxing, friendly and enjoyable environment.  ​ Each villa has
+              two bedrooms upstairs and a bathrooms. Downstairs there is an open
+              plan reception room kitchen with a WC and area for dinning.The
+              villa is fully furnished with one double bedroom and one twin
+              room. The Villa has  AC throughout, an oven with a four ring stove
+              a washing machine dryer, cable TV, WIFI internet and a sun terrace
+              with views of the Caribbean sea. The living room is furnished with
+              a couch and a home entertainment system. Each villa has a parking
+              space and hiring a car is highly recommended although Ajoupas can
+              easily be accessed by public transport.  Once you have made your
+              booking and sent us yo3r arrival details we'll make arrangements
+              for Sooey to meet you at the property run through a quick
+              inventory and hand over the keys.
+            </p>
+          </div>
+          <div class="col-lg-6 rightAligned">
+            <iframe
+              id="facebookBlog"
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAjoupasBarbados%2F%3Fpnref%3Dlhc&tabs=timeline&width=600&height=700&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=163574497563148"
+              width="100%"
+              height="500"
+              style="border:none;overflow:hidden"
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+            >
+            </iframe>
+          </div>
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
     <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Gallery</h2>
-            <div class="portfolio--wrapper">
-                <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.bathroom.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.bathroom.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Bathroom</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.path.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.path.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Garden path</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.roof.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.roof.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">High ceiling</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.twin.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.twin.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Twin room</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.dinning.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.dinning.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Comfortable dinning for four</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.entrance.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.entrance.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Landscaped gardens, gated entrance</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.kitchen.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.kitchen.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Kitchen with cool breeze</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.masterbedroom.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.masterbedroom.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Master bedroom with balcony</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.reception.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.reception.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Cozy reception</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.wc.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.wc.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Downstairs toilet</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/sky.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/sky.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Beautiful</figcaption>
-                    </figure>
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="img/pro.swimming.jpg" itemprop="contentUrl" data-size="800x600">
-                            <img src="img/pro.swimming.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">On site swimming pool</figcaption>
-                    </figure>
-                </div>
-            </div>
-            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-                <!-- Background of PhotoSwipe. 
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="portfolio--wrapper">
+          <div
+            class="my-gallery"
+            itemscope
+            itemtype="http://schema.org/ImageGallery"
+          >
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.bathroom.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.bathroom.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">Bathroom</figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.path.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.path.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Garden path
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.roof.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.roof.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                High ceiling
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.twin.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.twin.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">Twin room</figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.dinning.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.dinning.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Comfortable dinning for four
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.entrance.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.entrance.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Landscaped gardens, gated entrance
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.kitchen.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.kitchen.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Kitchen with cool breeze
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.masterbedroom.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.masterbedroom.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Master bedroom with balcony
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.reception.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.reception.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Cozy reception
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.wc.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.wc.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                Downstairs toilet
+              </figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a href="img/sky.jpg" itemprop="contentUrl" data-size="800x600">
+                <img
+                  src="img/sky.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">Beautiful</figcaption>
+            </figure>
+            <figure
+              itemprop="associatedMedia"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <a
+                href="img/pro.swimming.jpg"
+                itemprop="contentUrl"
+                data-size="800x600"
+              >
+                <img
+                  src="img/pro.swimming.jpg"
+                  itemprop="thumbnail"
+                  alt="Image description"
+                />
+              </a>
+              <figcaption itemprop="caption description">
+                On site swimming pool
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+          <!-- Background of PhotoSwipe. 
                     It's a separate element, as animating opacity is faster than rgba(). -->
-                <div class="pswp__bg"></div>
-                <!-- Slides wrapper with overflow:hidden. -->
-                <div class="pswp__scroll-wrap">
-                    <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-                    <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                    </div>
-                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                    <div class="pswp__ui pswp__ui--hidden">
-                        <div class="pswp__top-bar">
-                            <!--  Controls are self-explanatory. Order can be changed. -->
-                            <div class="pswp__counter"></div>
-                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                            <button class="pswp__button pswp__button--share" title="Share"></button>
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                            <!-- element will get class pswp__preloader--active when preloader is running -->
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip"></div>
-                        </div>
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                        </button>
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                        </button>
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center"></div>
-                        </div>
-                    </div>
-                </div>
+          <div class="pswp__bg"></div>
+          <!-- Slides wrapper with overflow:hidden. -->
+          <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
             </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button
+                  class="pswp__button pswp__button--close"
+                  title="Close (Esc)"
+                ></button>
+                <button
+                  class="pswp__button pswp__button--share"
+                  title="Share"
+                ></button>
+                <button
+                  class="pswp__button pswp__button--fs"
+                  title="Toggle fullscreen"
+                ></button>
+                <button
+                  class="pswp__button pswp__button--zoom"
+                  title="Zoom in/out"
+                ></button>
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                  <div class="pswp__preloader__icn">
+                    <div class="pswp__preloader__cut">
+                      <div class="pswp__preloader__donut"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+              >
+                <div class="pswp__share-tooltip"></div>
+              </div>
+              <button
+                class="pswp__button pswp__button--arrow--left"
+                title="Previous (arrow left)"
+              ></button>
+              <button
+                class="pswp__button pswp__button--arrow--right"
+                title="Next (arrow right)"
+              ></button>
+              <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
-        <section>
+    <section>
+      <div>
+        <div class="text-center">
+          <a href="#contact" class="btn btn-lg btn-dark">Book Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- Map -->
+    <section id="map">
+      <div class="container">
+        <h2>Map</h2>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15490.203313494025!2d-59.63632397603941!3d13.147689759745923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa66ff045e7f02bb8!2sAjoupas+Villas+Barbados!5e0!3m2!1sen!2suk!4v1497792525908"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border:0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Shop</h2>
+        <div>
+          <div class="shop-slide-show">
             <div>
-                <div class="text-center">
-                    <a href="#contact" class="btn btn-lg btn-dark">Book Now</a>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B00DTXYCOU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00DTXYCOU&linkCode=as2&tag=clickaton-21&linkId=7a965e18d33ba53ca5613eef3cf53f09"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00DTXYCOU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=clickaton-21"
+                />
+
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B00DTXYCOU"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
                 </div>
+              </a>
             </div>
-        </section>
-        <!-- Map -->
-        <section id="map">
-            <div class="container">
-                <h2>Map</h2>
-                <div>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15490.203313494025!2d-59.63632397603941!3d13.147689759745923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa66ff045e7f02bb8!2sAjoupas+Villas+Barbados!5e0!3m2!1sen!2suk!4v1497792525908"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B071CZ73J2/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B071CZ73J2&linkCode=as2&tag=clickaton-21&linkId=db2f0889a8b0cecb1aebc41bab124dd9"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B071CZ73J2&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=clickaton-21"
+                />
 
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B071CZ73J2"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
                 </div>
+              </a>
             </div>
-        </section>
-        <section>
-            <div class="container">
-                <h2>Shop</h2>
-                <div>
-                    <div class="shop-slide-show">
-                        <div>
-                            <a       
-                                class="product"
-                                target="_blank"
-                                href="https://www.amazon.co.uk/gp/product/B00DTXYCOU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00DTXYCOU&linkCode=as2&tag=clickaton-21&linkId=7a965e18d33ba53ca5613eef3cf53f09"><img
-                                border="0"
-                                src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00DTXYCOU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=clickaton-21">
-                        
-                                <img
-                                src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B00DTXYCOU" width="1" height="1" border="0" alt=""
-                                style="border:none !important; margin:0px !important;" />
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img  width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a 
-                                class="product"
-                                target="_blank"
-                                href="https://www.amazon.co.uk/gp/product/B071CZ73J2/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B071CZ73J2&linkCode=as2&tag=clickaton-21&linkId=db2f0889a8b0cecb1aebc41bab124dd9"><img
-                                border="0"
-                                src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B071CZ73J2&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=clickaton-21">
-                                
-                                <img src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B071CZ73J2" width="1" height="1" border="0" alt=""
-                                    style="border:none !important; margin:0px !important;" />
-
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a 
-                                class="product"
-                                href="https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD/ref=as_li_ss_il?crid=3T2Z7DIN6M2Y3&keywords=noise+cancelling+headphones&qid=1553976988&rnid=419152031&s=gateway&sprefix=noise+,aps,134&sr=8-7&linkCode=li1&tag=clickaton-21&linkId=aba6b5ec3d4aac6c9c61addcfcf228a8&language=en_GB"
-                                target="_blank"><img border="0"
-                                    src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0756CYWWD&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=clickaton-21&language=en_GB">
-                                    <img
-                                src="https://ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&language=en_GB&l=li1&o=2&a=B0756CYWWD" width="1"
-                                height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a  
-                                class="product"
-                                target="_blank"
-                                href="https://www.amazon.co.uk/gp/product/B016WZ15YG/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B016WZ15YG&linkCode=as2&tag=clickaton-21&linkId=5b62feda3e1e5c2c3537abd26764311b"><img
-                                border="0"
-                                src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B016WZ15YG&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21">
-                                <img
-                                src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B016WZ15YG" width="1" height="1" border="0" alt=""
-                                style="border:none !important; margin:0px !important;" />
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a 
-                                class="product"
-                                target="_blank"
-                                href="https://www.amazon.co.uk/gp/product/B078Q5TTGF/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B078Q5TTGF&linkCode=as2&tag=clickaton-21&linkId=8f742fe2cfa826438041785013f7d801"><img
-                                    border="0"
-                                    src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B078Q5TTGF&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21">
-                                    <img
-                                        src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B078Q5TTGF" width="1" height="1" border="0" alt=""
-                                        style="border:none !important; margin:0px !important;" />
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                            <a 
-                                class="product"
-                                target="_blank"
-                                href="https://www.amazon.co.uk/gp/product/B01CL7YRDU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01CL7YRDU&linkCode=as2&tag=clickaton-21&linkId=1ba094711de9338f42680466929243df"><img
-                                    border="0"
-                                    src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B01CL7YRDU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21">
-                                    <img
-                                    src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B01CL7YRDU" width="1" height="1" border="0" alt=""
-                                    style="border:none !important; margin:0px !important;" />
-                                    <div class="buy-button">
-                                        <p>BUY NOW ON</p>
-                                        <img width="60" src="img/amazon_logo.png" />
-                                    </div>
-                            </a>
-                        </div>
-                        <div>
-                        <a 
-                            class="product"
-                            target="_blank"
-                            href="https://www.amazon.co.uk/gp/product/B071RSHMJN/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B071RSHMJN&linkCode=as2&tag=clickaton-21&linkId=10c16175c5043b9d6ce611816779c06e"><img
-                                border="0"
-                                src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B071RSHMJN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21">
-                                <img
-                                    src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B071RSHMJN" width="1" height="1" border="0" alt=""
-                                    style="border:none !important; margin:0px !important;" />
-                                <div class="buy-button">
-                                    <p>BUY NOW ON</p>
-                                    <img width="60" src="img/amazon_logo.png" />
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-               
+            <div>
+              <a
+                class="product"
+                href="https://www.amazon.co.uk/Bose-QuietComfort-Wireless-Headphones-Cancelling-Black/dp/B0756CYWWD/ref=as_li_ss_il?crid=3T2Z7DIN6M2Y3&keywords=noise+cancelling+headphones&qid=1553976988&rnid=419152031&s=gateway&sprefix=noise+,aps,134&sr=8-7&linkCode=li1&tag=clickaton-21&linkId=aba6b5ec3d4aac6c9c61addcfcf228a8&language=en_GB"
+                target="_blank"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0756CYWWD&Format=_SL110_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=clickaton-21&language=en_GB"
+                />
+                <img
+                  src="https://ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&language=en_GB&l=li1&o=2&a=B0756CYWWD"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
                 </div>
+              </a>
             </div>
-        </section>
-        <!-- Footer -->
-        <footer>
-            <div id="contact" class="container">
-                <h2>Contact</h2>
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-
-                        <h4><strong>Ricardo Roach</strong>
-                        </h4>
-                        <p>No.3 Ajoupa's
-                            <br>Fitts Village, West Coast
-                            <br>Barbados</p>
-                        <ul class="list-unstyled">
-                            <li class="phone"><a href="tel:(246) 233-1333">
-                                    <div><i class="fa fa-phone fa-3x"></i>
-                                        <p>Tel : (246) 233-1333</p>
-                                    </div>
-                                </a></li>
-                            <li class="email"><a href="mailto:ricardo.roach@gmail.com">
-                                    <div><i class="fa fa-envelope-o fa-3x"></i>
-                                        <p>ricardo.roach@gmail.com</p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul class="list-inline social-media">
-                            <li>
-                                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-dribbble fa-2x"></i></a>
-                            </li>
-                        </ul>
-                        <hr class="small">
-                        <p class="text-muted">Ajoupas Barbados &copy; Tormod Smith 2015</p>
-                    </div>
+            <div>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B016WZ15YG/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B016WZ15YG&linkCode=as2&tag=clickaton-21&linkId=5b62feda3e1e5c2c3537abd26764311b"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B016WZ15YG&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21"
+                />
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B016WZ15YG"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
                 </div>
+              </a>
             </div>
-        </footer>
+            <div>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B078Q5TTGF/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B078Q5TTGF&linkCode=as2&tag=clickaton-21&linkId=8f742fe2cfa826438041785013f7d801"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B078Q5TTGF&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21"
+                />
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B078Q5TTGF"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
+                </div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B01CL7YRDU/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01CL7YRDU&linkCode=as2&tag=clickaton-21&linkId=1ba094711de9338f42680466929243df"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B01CL7YRDU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21"
+                />
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B01CL7YRDU"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
+                </div>
+              </a>
+            </div>
+            <div>
+              <a
+                class="product"
+                target="_blank"
+                href="https://www.amazon.co.uk/gp/product/B071RSHMJN/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B071RSHMJN&linkCode=as2&tag=clickaton-21&linkId=10c16175c5043b9d6ce611816779c06e"
+                ><img
+                  border="0"
+                  src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B071RSHMJN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=clickaton-21"
+                />
+                <img
+                  src="//ir-uk.amazon-adsystem.com/e/ir?t=clickaton-21&l=am2&o=2&a=B071RSHMJN"
+                  width="1"
+                  height="1"
+                  border="0"
+                  alt=""
+                  style="border:none !important; margin:0px !important;"
+                />
+                <div class="buy-button">
+                  <p>BUY NOW ON</p>
+                  <img width="60" src="img/amazon_logo.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div id="contact" class="container">
+        <h2>Contact</h2>
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4><strong>Ricardo Roach</strong></h4>
+            <p>No.3 Ajoupa's <br />Fitts Village, West Coast <br />Barbados</p>
+            <ul class="list-unstyled">
+              <li class="phone">
+                <a href="tel:(246) 233-1333">
+                  <div>
+                    <i class="fa fa-phone fa-3x"></i>
+                    <p>Tel : (246) 233-1333</p>
+                  </div>
+                </a>
+              </li>
+              <li class="email">
+                <a href="mailto:ricardo.roach@gmail.com">
+                  <div>
+                    <i class="fa fa-envelope-o fa-3x"></i>
+                    <p>ricardo.roach@gmail.com</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <br />
+            <ul class="list-inline social-media">
+              <li>
+                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-dribbble fa-2x"></i></a>
+              </li>
+            </ul>
+            <hr class="small" />
+            <p class="text-muted">Ajoupas Barbados &copy; Tormod Smith 2015</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-        <!-- jQuery -->
+    <!-- jQuery -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Custom Theme JavaScript -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/gallery.js "></script>
-        <script src="js/slick.js"></script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js "></script>
+    <script src="js/slick.js"></script>
+  </body>
 </html>
