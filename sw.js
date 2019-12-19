@@ -1,0 +1,1 @@
+self.importScripts('https://custom.yieldify.com/v1/100104/100186/sw.js');
